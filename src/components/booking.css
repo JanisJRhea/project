@@ -1,0 +1,42 @@
+.booking {
+    text-align: center;
+    color: #5e48be;
+}
+
+.booking h2 {
+    color: blue;
+}
+.seats-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.seats-section {
+    width: 45%;
+}
+
+.seat {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #5e48be;
+    cursor: pointer;
+    color: rgb(52, 73, 208);
+}
+
+.seat.booked {
+    background-color: red;
+    cursor: not-allowed;
+}
+
+.seat.selected {
+    background-color: green;
+}
+
+button {
+    margin-top: 20px;
+}
+
